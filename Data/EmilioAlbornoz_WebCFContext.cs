@@ -15,5 +15,6 @@ namespace EmilioAlbornoz_WebCF.Data
         }
 
         public DbSet<EmilioAlbornoz_WebCF.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<EmilioAlbornoz_WebCF.Models.Promo> Promo { get; set; } = default!;
     }
 }
